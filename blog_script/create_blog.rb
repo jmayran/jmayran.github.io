@@ -1,5 +1,3 @@
-class create_blog
-
 def new_blog()
-  puts "Please enter the places name"
+  puts "Please enter the place name: "
 end
