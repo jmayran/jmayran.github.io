@@ -10,7 +10,8 @@ loop = true
     
     blog.write("<h3>#{placename}</h3>
                <img src=#{pictureurl}>
-               <p>#{description}</p>")
+               <p>#{description}</p>
+               <br><br>")
     
         puts "Do you want to add another blog post? (y or n)"
         anotherpost = gets.chomp
