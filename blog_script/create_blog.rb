@@ -8,7 +8,7 @@ loop = true
         puts "Plase enter a description of the place: "
         description = gets.chomp
     
-    blog.write("<h1>#{placename}</h1>
+    blog.write("<h3>#{placename}</h3>
                <img src=#{pictureurl}>
                <p>#{description}</p>")
     
